@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Helper – Chatbot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="chatbot.css" />
+</head>
+<body>
+
+<div class="frame">
+
+  <!-- ── HEADER ── -->
+  <div class="top-bar">
+
+    <!-- Hamburger / grid menu icon -->
+    <button class="icon-button" aria-label="Menu">
+      <div class="hamburger-icon">
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+      </div>
+    </button>
+
+    <div class="header-center">
+      <!-- Robot avatar -->
+      <div class="bot-avatar">
+        <img src="assets/chatbot/image 11.png" alt="AI Helper" style="width:44px;height:44px;object-fit:cover;border-radius:50%;" />
+      </div>
+      <div class="header-text">
+        <h2>AI Helper</h2>
+        <p>Ask me if you're stuck in any level</p>
+      </div>
+    </div>
+
+    <!-- Back button (double arrow / rewind) -->
+    <div class="back-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+        <path d="M11 19l-7-7 7-7" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M19 19l-7-7 7-7" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ── LAYOUT ── -->
+  <div class="container">
+
+      
+    <!-- ── MAIN AREA ── -->
+    <main class="main">
+
+      <!-- Chat card -->
+      <div class="chat-card">
+
+        <!-- AI Message -->
+        <div class="message">
+          <div class="msg-avatar">
+            <img src="assets/chatbot/image 11.png" alt="Bot" style="width:28px;height:28px;object-fit:cover;border-radius:50%;" />
+          </div>
+          <div class="bubble ai-bubble">
+            <strong>Hello!</strong>
+            <p>I can explain levels, give hints, or help you step by step</p>
+          </div>
+        </div>
+
+        <!-- Centered Placeholder -->
+        <div class="placeholder" style="display:flex;flex-direction:column;align-items:center;justify-content:center;margin:40px 0 20px 0;">
+          <h3 style="text-align:center;">your chat will appear here</h3>
+          <p style="text-align:center;">Ask your question &nbsp; below</p>
+        </div>
+
+        <!-- User Message -->
+        <div class="message user">
+          <div class="user-bubble-wrap">
+            <div class="user-bubble">Thank You :)</div>
+            <div class="user-side-bar"></div>
+          </div>
+          <div class="user-avatar">
+            <img src="assets/chatbot/image 11 (1).png" alt="User" style="width:28px;height:28px;object-fit:cover;border-radius:50%;" />
+          </div>
+        </div>
+
+        <!-- Quick-prompt buttons -->
+        <div class="chat-bottom">
+          <div class="prompts">
+            <button>Explain this level <span class="prompt-icon">👀</span></button>
+            <button>Give me a hint</button>
+            <button>Find my mistake <span class="prompt-icon">❓</span></button>
+          </div>
+
+          <!-- Input area -->
+          <div class="input-area">
+            <input type="text" placeholder="Write your question here…." />
+            <div class="actions">
+              <button class="icon-btn" aria-label="Attach">📎</button>
+              <button class="icon-btn" aria-label="Emoji">😊</button>
+              <button class="send-btn">
+                Send
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+</div>
+
+</body>
+</html>
