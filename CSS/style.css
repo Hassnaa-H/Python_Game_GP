@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --BUTTON-WIDTH: 159px;
+    --BUTTON-HEIGHT: 147px;
+    --BUTTON-FONT-SIZE: 16px;
+    --BUTTON-FONT-COLOR: #484433;
+    --BUTTON-FONT-FAMILY: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --FONT-WAIGHT: 700;
+    --BUTTON-RADUIS:380px 400px 500px 500px;
+}
+body{
+    background-image: url('../Homepage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+   
+    position: relative;
+    
+}
+header h1{
+    text-transform: uppercase;
+    font-family:  "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.25em;
+    color: #0288D1;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 0;
+}
+header p{
+    font-family: "Poppins", sans-serif;
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: var(--BUTTON-FONT-COLOR);
+    text-decoration: none;
+    padding-top: 16px;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+
+}
+.first{
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 0;
+    left: 190px;
+    font-weight: var(--FONT-WAIGHT);
+    font-size: var(--BUTTON-FONT-SIZE);
+    font-family: var(--BUTTON-FONT-FAMILY);
+    background-image: url('../level1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: var(--BUTTON-WIDTH);
+    height: var(--BUTTON-HEIGHT);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--BUTTON-RADUIS);
+}
+.second{
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 75px;
+    left: 370px;
+    padding-bottom: 0;
+    font-weight: var(--FONT-WAIGHT);
+    font-size: var(--BUTTON-FONT-SIZE);
+    font-family: var(--BUTTON-FONT-FAMILY);
+    background-image: url('../lockLevel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: var(--BUTTON-WIDTH);
+    height: var(--BUTTON-HEIGHT);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--BUTTON-RADUIS);
+}
+
+.third{
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 120px;
+    left: 540px;
+    padding-bottom: 20px;
+    font-weight: var(--FONT-WAIGHT);
+    font-size: var(--BUTTON-FONT-SIZE);
+    font-family: var(--BUTTON-FONT-FAMILY);
+    background-image: url('../lockLevel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: var(--BUTTON-WIDTH);
+    height: var(--BUTTON-HEIGHT);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--BUTTON-RADUIS);
+}
+.forth{
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 195px;
+    left: 705px;
+    padding-bottom: 0;
+    font-weight: var(--FONT-WAIGHT);
+    font-size: var(--BUTTON-FONT-SIZE);
+    font-family: var(--BUTTON-FONT-FAMILY);
+    background-image: url('../lockLevel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: var(--BUTTON-WIDTH);
+    height: var(--BUTTON-HEIGHT);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--BUTTON-RADUIS);
+}
+.fifth{
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 280px;
+    left: 880px;
+    padding-bottom: 0;
+    font-weight: var(--FONT-WAIGHT);
+    font-size: var(--BUTTON-FONT-SIZE);
+    font-family: var(--BUTTON-FONT-FAMILY);
+    background-image: url('../lockLevel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: var(--BUTTON-WIDTH);
+    height: var(--BUTTON-HEIGHT);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--BUTTON-RADUIS);
+}
+.sixth{
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 390px;
+    left: 755px;
+    padding-bottom: 0;
+    font-weight: var(--FONT-WAIGHT);
+    font-size: var(--BUTTON-FONT-SIZE);
+    font-family: var(--BUTTON-FONT-FAMILY);
+    background-image: url('../lockLevel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: var(--BUTTON-WIDTH);
+    height: var(--BUTTON-HEIGHT);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--BUTTON-RADUIS);
+}
+.seventh{
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 410px;
+    left: 575px;
+    padding-bottom: 0;
+    font-weight: var(--FONT-WAIGHT);
+    font-size: var(--BUTTON-FONT-SIZE);
+    font-family: var(--BUTTON-FONT-FAMILY);
+    background-image: url('../lockLevel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: var(--BUTTON-WIDTH);
+    height: var(--BUTTON-HEIGHT);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--BUTTON-RADUIS);
+}
+.eighth{
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 480px;
+    left: 420px;
+    padding-bottom: 0;
+    font-weight: var(--FONT-WAIGHT);
+    font-size: var(--BUTTON-FONT-SIZE);
+    font-family: var(--BUTTON-FONT-FAMILY);
+    background-image: url('../lockLevel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: var(--BUTTON-WIDTH);
+    height: var(--BUTTON-HEIGHT);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--BUTTON-RADUIS);
+}
+.ninth{
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 560px;
+    left: 560px;
+    font-size: 14px;
+    padding-bottom: 0;
+    font-weight: var(--FONT-WAIGHT);
+    font-family: var(--BUTTON-FONT-FAMILY);
+    background-image: url('../lockLevel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: var(--BUTTON-WIDTH);
+    height: var(--BUTTON-HEIGHT);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--BUTTON-RADUIS);
+}
+
+.tenth{
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 660px;
+    left: 677px;
+    padding-bottom: 0;
+    font-weight: var(--FONT-WAIGHT);
+    font-size: var(--BUTTON-FONT-SIZE);
+    font-family: var(--BUTTON-FONT-FAMILY);
+    background-image: url('../lockLevel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: var(--BUTTON-WIDTH);
+    height: var(--BUTTON-HEIGHT);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--BUTTON-RADUIS);
+}
+.button:hover{
+    animation-name: hover;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+}
+@keyframes hover{
+    0%{
+        transform: scale(1);
+    }
+    
+    100%{
+        transform: scale(1.1);
+    }
+}

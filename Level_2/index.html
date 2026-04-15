@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 2</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <span class="logo"><img class="HDlogo" src="../level_logo.png" alt=""></span>
+        <div class="navBar">
+            <div><span class="span">Level 2:VARIABLES</span></div>
+            <div class="line">use x and y to move your character through the maze</div>
+        </div>
+    </header>
+    <main class="main">
+        <img src="player.png" alt="Player" class="player">  
+        <img src="Level_2.png" alt="Level_2" class="bord">
+    </main>
+    <aside class="sidebar">
+        <p class="sidebar-title">Write Your Code Here</p>
+        <section class="sidebar-body">
+            <p class="message">Set The Position!</p>
+            <p class="padding">x=0</p>
+            <p class="border-bot padding">y=0</p>
+            <p class="padding"># move the character!</p>
+        </section>
+        
+        <textarea id="codeInput" class="textarea"></textarea>
+        <button id="runButton" class="button" type="button">Run</button>
+        <div id="statusMessage" class="status"></div>
+        
+    </aside>
+    <footer class="footer">
+        <section class="list">
+            <p class="Fsection">Commands You Can Use :</p>
+            <ul class="columns">
+                <li>Set x for left\right <span class="pointer">&#128072;&#128073;</span></li>
+                <li>Set y for up\down <span class="pointer">&#128070;&#128071;</span></li>
+                
+            </ul>
+        </section>
+        
+       <section class="list2">
+            <dl>
+                <dt class="Ssection">Example Code :</dt>
+                <dd>x = 0</dd>
+                <dd>y = 0</dd>
+                <dd>x = x +2</dd>
+                <dd>y = y +3</dd>
+            </dl>
+        </section>
+    </footer>
+
+    <div id="resultOverlay" class="result-overlay hidden">
+        <div class="result-card">
+            <h2>Great Job! 🎉</h2>
+            <p class="result-text">You did it!</p>
+            <p class="result-text">The commands worked in the right order.</p>
+            <div class="result-buttons">
+                <button id="nextLevelButton" class="overlay-button">Next Level ▶⎢</button>
+                <button id="tryAgainButton" class="overlay-button secondary">Try Again ⟳</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
