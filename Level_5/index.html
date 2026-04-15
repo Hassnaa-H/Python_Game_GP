@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 5</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <span class="logo"><img class="HDlogo" src="../level_logo.png" alt=""></span>
+        <nav class="navbar">
+            <div><span class="span">Level 5: FUNCTIONS</span></div>
+            <div class="line">create your own command to reuse moves.</div>
+        </nav>
+    </header>
+    <main class="main">
+        <img src="player.png" alt="Player" class="player">  
+        <img src="Level_5.png" alt="Level_5" class="bord">    
+    </main>
+    <aside class="sidebar">
+        <p class="sidebar-title">Write Your Code Here</p>
+        <section class="sidebar-body">
+            <p class="message">create a function to move faster!</p>
+            <section class="border-bot">
+                <p class="low-indentation">def go_straight():</p>
+                <p class="indentation">move_right()</p>
+                <p class="indentation">move_right()</p>
+                <p class="indentation">move_down()</p>
+                <p class="low-indentation">go_straight()</p>
+                <p class="low-indentation">go_straight()</p>
+            </section>
+            <p class="low-indentation"># move the character!</p>
+        </section>
+        
+        <textarea id="codeInput" class="textarea"></textarea>
+        <button id="runButton" class="button" type="button">Run</button>
+        <div id="statusMessage" class="status"></div>
+    </aside>
+    <footer class="footer">
+        <section class="list">
+            <p class="Fsection">Commands You Can Use :</p>
+            <ul class="columns">
+                <li>move_right()<span class="pointer">&#128073;</span></li>
+                <li>move_left()<span class="pointer">&#128072;</span></li>
+                <li>move_up()<span class="pointer">&#128070;</span></li>
+                <li>move_down()<span class="pointer">&#128071;</span></li>
+                <li>function name</li>
+                <li>def</li>
+            </ul>
+        </section>
+        
+       <section class="list2">
+            <dl>
+                <dt class="Ssection">Example Code :</dt>
+                <dd>def path():</dd>
+                <dd class="ident">move_right()</dd>
+                <dd class="ident">move_right()</dd>
+                <dd class="ident">move_up()</dd>
+                <dd>path()</dd>
+                <dd>path()</dd>
+            </dl>
+        </section>
+    </footer>
+
+    <div id="resultOverlay" class="result-overlay hidden">
+        <div class="result-card">
+            <h2>Great Job! 🎉</h2>
+            <p class="result-text">You did it!</p>
+            <p class="result-text">The commands worked in the right order.</p>
+            <div class="result-buttons">
+                <button id="nextLevelButton" class="overlay-button">Next Level ▶⎢</button>
+                <button id="tryAgainButton" class="overlay-button secondary">Try Again ⟳</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 6</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <span class="logo"><img class="HDlogo" src="../level_logo.png" alt=""></span>
+        <nav class="navBar">
+            <div><span class="span">Level 6:Lists</span></div>
+            <div class="line">store your moves in a list and follow the path.</div>
+        </nav>
+    </header>
+    <main class="main">
+        <img src="player.png" alt="Player" class="player">  
+        <img src="Level_6.png" alt="Level_6" class="bord">
+    </main>
+    <aside class="sidebar">
+       <p class="sidebar-title">Write Your Code Here</p>
+        <section class="sidebar-body">
+            <p class="message">create a list of moves!</p>
+            <section class="border-bot">
+                <p class="low-indentation">moves=["right", "right", "up","left","left"]</p>
+            </section>
+            <p class="low-indentation"># move the character!</p>
+        </section>
+        
+        <textarea id="codeInput" class="textarea"></textarea>
+        <button id="runButton" class="button" type="button">Run</button>
+        <div id="statusMessage" class="status"></div>
+    </aside>
+    <footer class="footer">
+        <section class="list">
+            <p class="Fsection">Commands You Can Use :</p>
+            <ul class="columns">
+                <li>"right"&ensp;&ensp;&ensp;<span class="pointer">&#128073;</span></li>
+                <li>"left"&ensp;&ensp;&nbsp;<span class="pointer">&#128072;</span></li>
+                <li>"down"&ensp;&ensp;&ensp;<span class="pointer">&#128071;</span></li>
+                <li>"up"&ensp;&ensp;&ensp;&ensp;<span class="pointer">&#128070;</span></li>
+                
+                <li>lists</li>
+                
+            </ul>
+        </section>
+        
+       <section class="list2">
+            <dl>
+                <dt class="Ssection">Example Code :</dt>
+                <dd>moves=["right", "right", "up","left","left"]</dd>
+                <br>
+                <dd>for move in moves:</dd>     
+                <dd class="ident">do(move)</dd>
+            </dl>
+        </section>
+    </footer>
+    <div id="resultOverlay" class="result-overlay hidden">
+        <div class="result-card">
+            <h2>Great Job! 🎉</h2>
+            <p class="result-text">You did it!</p>
+            <p class="result-text">The commands worked in the right order.</p>
+            <div class="result-buttons">
+                <button id="nextLevelButton" class="overlay-button">Next Level ▶⎢</button>
+                <button id="tryAgainButton" class="overlay-button secondary">Try Again ⟳</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
