@@ -1,0 +1,34 @@
+{
+  "welcome": {
+    "title": "Hello!",
+    "text": "I can explain levels, give hints, or help you step by step"
+  },
+  "prompts": [
+    {
+      "id": "explain_level",
+      "label": "Explain this level 👀",
+      "message": "Explain this level: what should I do?"
+    },
+    {
+      "id": "give_hint",
+      "label": "Give me a hint",
+      "message": "Give me a hint for my current level."
+    },
+    {
+      "id": "find_mistake",
+      "label": "Find my mistake ❓",
+      "message": "Please review my approach and point out mistakes."
+    }
+  ],
+  "flows": {
+    "explain_level": [
+      { "role": "bot", "content": "Sure — tell me which level you're on (1-10)." }
+    ],
+    "give_hint": [
+      { "role": "bot", "content": "Here's a small hint: try looking at the edge cases first." }
+    ],
+    "find_mistake": [
+      { "role": "bot", "content": "Share your code or approach and I'll point out issues." }
+    ]
+  }
+}
